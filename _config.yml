@@ -48,7 +48,7 @@ linkedin_username: sanghun-lee-803280222
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  **Python**을 좋아하는 1년차 백엔드 개발자입니다. 서로 배움을 나누고 다같이 성장하기를 즐깁니다. **사용자 경험**과 **개발자 경험**을 개선하는데 성취를 느끼고 기술 부채를 줄여가기를 좋아합니다.
+  **Python**을 좋아하는 1년차 백엔드 개발자입니다. 서로 배움을 나누고 다같이 성장하기를 즐깁니다. **사용자 경험**과 **개발자 경험**을 개선하는데 성취를 느끼고 기술 부채 줄이기를 좋아합니다.
 
 content:
   # - title: Projects # Title for the section
@@ -83,8 +83,8 @@ content:
             컴퓨팅 자원 분산 관리 플랫폼 제공
         description: | # this will include new lines to allow paragraphs
             * 오픈소스 컨트리뷰톤 아카데미 2022 [Backend.AI 프로젝트 멘토](https://www.oss.kr/contribution_22_projects/show/db0a36a3-a373-4e7b-8cd7-68f4279350e1)
-            * Legacy DB 테이블 분리로 2개의 다른 이슈를 blocking하는 이슈를 해결하고 코드 추상화가 나아졌습니다.
-            * SQLAlchemy ORM 도입으로 쉬운 DB 쿼리 가능케 했습니다.
+            * Legacy DB 테이블을 2개의 테이블로 분리하고 migration하여 2개의 다른 이슈를 blocking하는 이슈를 해결.
+            * SQLAlchemy ORM 도입으로 쉬운 DB 쿼리 및 ORM API 사용 가능.
 
       - layout: left
         title: 알고리마
@@ -105,7 +105,6 @@ content:
   - title: Skill # Title for the section
     layout: list
     content:
-      -
       - layout: left
         title: Backend
         description: | # this will include new lines to allow paragraphs
@@ -155,6 +154,10 @@ content:
         title: Pycon Korea 2022 세션 발표
         description: |
             SQLAlchemy with asyncio, From Core to ORM
+      - layout: left
+        title: 오픈소스 컨트리뷰톤 아카데미 2021 Backend.AI 멘티
+        description: |
+            Backend.AI 프로젝트에 멘티로 참여하여 문서 한글화 참여
 
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
