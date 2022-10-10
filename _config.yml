@@ -80,7 +80,7 @@ content:
         sub_title: 백엔드 개발자
         caption: 2021.12 - present
         quote: >
-            컴퓨팅 자원 분산 관리 플랫폼
+            컴퓨팅 자원 분산 관리 플랫폼 제공
         description: | # this will include new lines to allow paragraphs
             * 오픈소스 컨트리뷰톤 아카데미 2022 [Backend.AI 프로젝트 멘토](https://www.oss.kr/contribution_22_projects/show/db0a36a3-a373-4e7b-8cd7-68f4279350e1)
             * SQLAlchemy ORM 도입
@@ -92,13 +92,14 @@ content:
         sub_title: 풀스택 개발자
         caption: 2020.12 - 2021.12
         quote: >
-            AI 교육 웹 플랫폼
+            AI 교육 웹 플랫폼 제공
         description: | # this will include new lines to allow paragraphs
             * Django, Django rest-framework로 작성된 서버에 API 추가.
             * React, Redux 기반 웹에 polling 기반 사용자 학습 정보 업데이트 추가.
-            * 기능을 수정하거나 추가하기 힘든 백엔드 코드 전반적인 리팩토링.
             * Locust.io를 활용하여 load test 코드 작성 및 실시, 백엔드 bottleneck 파악.
-            * [GCP Pub/Sub 배포 설정을 수정하여 bottleneck 해결.](https://velog.io/@fregataa/GCP-Pubsub-flow-control)
+            * [GCP Pub/Sub 배포 설정을 수정하여 bottleneck 해결](https://velog.io/@fregataa/GCP-Pubsub-flow-control), AI 훈련 요청 분당 처리량 3개에서 10개로 증가. 
+            * 개발환경 Dockerize로 신입 개발자 온보딩 기간 평균 7일에서 3일로 단축.
+            * 기능을 수정하거나 추가하기 힘든 백엔드 코드 전반적인 리팩토링.
 
   - title: Skill # Title for the section
     quote: >
@@ -119,6 +120,7 @@ content:
     description: | # this will include new lines to allow paragraphs
       * PostgreSQL (3)
       * GCP Pubsub (2), GCP GKE (2)
+      * Docker (2)
       * Linux Ubuntu (2)
 
   - title: Other activities
@@ -137,7 +139,7 @@ content:
         caption: 2014 - 2021
         sub_title: BSc Computer Engineering
         description: | # this will include new lines to allow paragraphs
-          자료구조, 운영체제, 네트워크 프로그래밍, 소프트웨어 개발방법론 등
+          자료구조, 운영체제, 네트워크 프로그래밍, 소프트웨어 개발방법론 등 전공 수강.
 
 # Footer
 footer_show_references: true
